@@ -1,13 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>learn oop</title>
-</head>
-<body>
-    
-    <script src="./index.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+        <link rel="stylesheet" href="style.css">
+        <title>learn oop</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="table-style">
+                <div class="row">
+                  <div class="col-12">
+                    <table class="table table-bordered">
+                      <thead class="text-center">
+                        <tr>
+                          <th scope="col">ID.</th>
+                          <th scope="col">Name</th>
+                          <th scope="col">Avatar</th>
+                          <th scope="col">Follow</th>
+                        </tr>
+                      </thead>
+                      <tbody id='itemList'>
+                        
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="./fetchData.js"></script>
+    </body>
 </html>
